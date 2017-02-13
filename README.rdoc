@@ -1,4 +1,4 @@
 This is my first rails application called alpha_blog.
-Will keep on updating it in near future.Will
+Will keep on updating it in near future.
 
 --kshitij
