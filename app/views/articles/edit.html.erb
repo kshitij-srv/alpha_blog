@@ -1,10 +1,10 @@
 <h1>
-  Create an article
+  Edit existing article
 </h1>
 
 <% if @article.errors.any? %>
   <h2>
-    The article could not be created due to following errors:
+    The article could not be updated due to following errors:
   </h2>
   <ul>
     <% @article.errors.full_messages.each do |msg| %>
