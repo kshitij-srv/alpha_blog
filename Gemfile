@@ -36,8 +36,14 @@ gem 'spring',        group: :development
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+ # Gemfile for pretty printing
+ gem "awesome_print", require:"ap"
+
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+#use byebug for debugging
+gem 'byebug', '~> 9.0', '>= 9.0.5'
 
 group :production do
   gem 'pg'
